@@ -16,7 +16,9 @@ function divide(a, b) {
   }
   return a / b;
 }
-
+function average(a,b){
+  return (a+b)/3;
+}
 module.exports = {
   add,
   subtract,
