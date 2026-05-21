@@ -16,8 +16,8 @@ describe("calculator", () => {
   test("divides two numbers", () => {
     expect(divide(10, 2)).toBe(5);
   });
-  test("average",()=>{
-    expect(average(10,2)).toBe(4);
+  test("average testing",()=>{
+    expect(average(10,2)).toBe(6);
   })
 
   test("throws when dividing by zero", () => {
