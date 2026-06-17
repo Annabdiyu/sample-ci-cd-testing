@@ -16,7 +16,7 @@ function divide(a, b) {
   }
   return a / b;
 }
-function average(a,b){
+function average(a,b){ //wrong code divide by 3 instead of 2
   return (a+b)/3;
 }
 module.exports = {
